@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "92a252ba92d9724cbabfb46401bc15ad036aacac86a304093dfb9d74602ee036"
+            "sha256": "216247c2d85a404d8300fd504b8527c052e5de6f07f5b6e6fee38cdad348f12c"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.11"
+            "python_version": "3.10"
         },
         "sources": [
             {
@@ -45,7 +45,7 @@
                 "sha256:21128f47e4e3b9d597a3e8521a329bf56909b690fcc3fa3e477725aa81367638",
                 "sha256:cfadcdb638b609361d29ec22360d6070a77d7463dcb3ab08d2c2f2f168845f58"
             ],
-            "index": "pypi",
+            "markers": "python_version >= '3.8'",
             "version": "==3.0.0"
         },
         "flask-migrate": {
@@ -61,7 +61,7 @@
                 "sha256:4ba4be7f419dc72f4efd8802d69974803c37259dd42f3913b0dcf75c9447e0a0",
                 "sha256:e4b68bb881802dda1a7d878b2fc84c06d1ee57fb40b874d3dc97dabfa36b8312"
             ],
-            "markers": "python_version >= '3.8'",
+            "index": "pypi",
             "version": "==3.1.1"
         },
         "greenlet": {
@@ -268,6 +268,13 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.0.21"
+        },
+        "sqlalchemy-serializer": {
+            "hashes": [
+                "sha256:c4cf3e3eebbffa5b46a77ddb886230e5d8c17fd0b9ddbd57eed1a837eb1463cc"
+            ],
+            "index": "pypi",
+            "version": "==1.4.1"
         },
         "typing-extensions": {
             "hashes": [
